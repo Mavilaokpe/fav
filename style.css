@@ -320,31 +320,31 @@ header{
 
     }
     .column{
-        height: 800px;
+        height: 900px;
         flex-direction: column;
         
     }
     .col1{
         width: 100%;
-        height: 700px;
+        height: 900px;
         margin: 6px 0;
     }
    
     .col2{
         width: 100%;
-        height: 700px;
+        height: 900px;
         margin: 6px 0;
     }
    
     .col3{
         width: 100%;
-        height: 700px;
+        height: 900px;
         margin: 6px 0;
     }
    
     .col4{
         width: 100%;
-        height: 700px;
+        height: 900px;
         margin: 6px 0;
     }
    
