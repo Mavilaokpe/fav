@@ -1,0 +1,352 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.topnav{
+    overflow: hidden;
+    background-color: aqua;
+    position: relative;
+}
+.topnav .logo a{
+    color: rgb(119, 145, 82);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    font-kerning:auto
+}
+.topnav a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+.topnav #links{
+    display: none;
+}
+.topnav a.icon{
+    background: black;
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+}
+.topnav:hover{
+    background: rgb(82, 153, 153);
+    color: aquamarine;
+
+}
+.topnav{
+    display: none;
+}
+
+.style{
+    display: flex;
+    background:rgb(196, 93, 196);
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 14px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 17px;
+}
+.log{
+    text-decoration: none;
+    color:rgb(173, 48, 90);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    font-kerning:auto;
+    padding: 14px 30px;
+}
+    
+
+
+nav ul li:hover{
+    background: pink;
+    border-radius: 8px;
+    border-bottom: 2px solid salmon;
+}
+header{
+    height: 450px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./imgfood/images.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#about{
+    height: 500px;
+    background: lightgray;
+}
+#about h1{
+    padding: 14px 16px;
+    margin: 0  60px;
+    color: rgb(77, 73, 73);
+}
+#about p{
+    padding: 14px 16px;
+    margin: 0 60px;
+    line-height: 1.6;
+    color: gray;
+}
+#recipes{
+    height: 500px;
+}
+#recipes h1{
+    padding: 14px 16px;
+    margin: 0  60px;
+    color: gray;
+
+}
+#recipes p{
+    padding: 14px 16px;
+    margin: 0  60px;
+    color: rgb(54, 53, 53);
+    line-height: 1.2;
+
+}
+#recipes h4{
+    padding: 14px 16px;
+    margin: 0  60px;
+    color: gray;
+    line-height: 1.8;
+
+}
+#contact{
+    height: 350px;
+    background:lightgray;
+}
+#contact h1{
+    padding: 14px 16px;
+    margin: 0  60px;
+    color: rgb(77, 73, 73);
+
+
+}
+#contact h3{
+    padding: 14px 16px;
+    margin: 0  60px;
+    color: rgb(77, 73, 73);
+    line-height: 1.6;
+
+
+}
+
+#contact p{
+    padding: 14px 16px;
+    margin: 0  60px;
+    color: gray;
+    line-height: 1.2;
+
+
+}
+.social{
+    padding: 0 60px;
+}
+.social a{
+    list-style: none;
+    text-decoration: none;
+    margin: 14px 16;
+}
+.social .fa-whatsapp{
+    margin-right: 20px;
+    color:#25D366;
+    font-size: 20px;
+}
+
+.social .fa-youtube{
+    margin-right: 20px;
+    color:#FF0000 ;
+    font-size: 20px;
+}
+.social .fa-phone{
+    margin-right: 20px;
+    color:#23407c ;
+    font-size: 20px;
+
+}
+.social .fa-facebook{
+    margin-right: 20px;
+    color: #4267B2;
+    font-size: 20px;
+}
+.social .fa-instagram{
+    margin-right: 20px;
+    color:#E1306C;
+    font-size: 20px;
+
+}
+#consultations{
+    height: 600px;
+}
+#consultations h1{
+    padding: 14px 16px;
+    margin: 0  60px;
+    color: rgb(77, 73, 73);
+}
+
+#consultations p{
+    padding: 14px 16px;
+    margin: 0 60px;
+    line-height: 1.6;
+    color: gray;
+}
+#gallery{
+    height: 500px;
+    background-color: lightgray;
+}
+#gallery h1{
+    padding: 14px 16px;
+    margin: 0 60px;
+    color: rgb(77, 73, 73)
+}
+#gallery p{
+    padding: 14px 16px;
+    margin: 0 60px;
+    color: rgb(77, 73, 73)
+}
+.column{
+    display: flex;
+}
+.col1{
+    background: url('./imgfood/download\ \(1\).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 250px;
+    margin: 0 6px;
+}
+.col2{
+    background: url('./imgfood/download.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 250px;
+    margin: 0 6px;
+}
+.col3{
+    background: url('./imgfood/download\ \(6\).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 250px;
+    margin: 0 6px;
+}
+.col4{
+    background: url('./imgfood/download\ \(4\).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 250px;
+    margin: 0 6px;
+}
+.col1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.col2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.col3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.col4:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+@media screen and (max-width:600px) {
+    .topnav{
+        display: block;
+    }
+    .style{
+        display: none;
+    }
+    header p{
+        text-align: center;
+        font-size: 15px;
+    }
+    #about{
+        height: 900px;
+        font-size: 15px;  
+        margin-bottom: 20px;
+    }
+    
+    #recipes{
+        height: 950px;
+        margin-top: 10px;
+        line-height: normal;
+
+    }
+    #contact{
+        height: 600px;
+        line-height: normal;
+    }
+    #consultations{
+        height: 900px;
+        line-height: normal;
+        margin-bottom: 80px;
+    }
+    #gallery{
+        height: 800px;
+        margin-top: 300px;
+        line-height: normal;
+
+    }
+    .column{
+        height: 800px;
+        flex-direction: column;
+        
+    }
+    .col1{
+        width: 100%;
+        height: 700px;
+        margin: 6px 0;
+    }
+   
+    .col2{
+        width: 100%;
+        height: 700px;
+        margin: 6px 0;
+    }
+   
+    .col3{
+        width: 100%;
+        height: 700px;
+        margin: 6px 0;
+    }
+   
+    .col4{
+        width: 100%;
+        height: 700px;
+        margin: 6px 0;
+    }
+   
+    
+}
